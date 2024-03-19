@@ -1,0 +1,236 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(9, 48, 175);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+   /* background-color: skyblue;*/
+    width: 80vw;
+    background-image:  url(cld.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+}
+.InfoContainer{
+   /* background-color:rgb(68, 0, 255);*/
+    height: 45vh;
+    width: 80vw ;
+ margin: 144px auto;
+ display: flex;
+ justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 30px;
+}
+.About{ 
+    font-size: 25px;
+    margin-top: 5px;
+}
+.moreabout{
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 20px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer;    
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover{
+    color: white;
+    background-color: dodgerblue;
+}
+.contactform{
+ padding: 0 34px;
+ padding-top: 144px;
+ font-family: 'fira Sans', sans-serif;  
+ background-color: rgb(243, 150, 150); 
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row; 
+ }
+ #form-check input{
+     width: 24px;
+     margin: 3px 0;
+ }
+ .blogItem{
+     margin: 20px;
+     font-size: medium;
+ }
+ .blogContainer h1{
+     font-family: 'Fira Sans', sans-serif;
+     margin: 23px;
+ 
+ }
+ .blogItem p{
+     font-family: 'Source CodePro', monospace;
+ }
+ .sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+ }
+ .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+ }
+ .ham{
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ .cross{
+    margin-left: 100px;
+    margin-top: 10px;
+ }
+ @media (max-width: 1615px){
+    /*{
+       /* background-color: rgb(167, 96, 96);*/
+    }
+   /*.sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+ }*/
+ .myintro{
+    background-color: rgb(204, 93, 112);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+ }
+ .my{
+    color: rgb(111, 149, 231);
+ }
+ .myservices{
+   text-align: center;
+   font-size: medium;
+
+ }
+ .row{
+    font-size: 40px;
+    color: red ;
+ }
+ .row1{
+    font-size: 40px;
+    color: red;
+ }
+ .bubbles img{
+    width: 30px;
+    animation: bubble 7s linear infinite;
+ }
+ 
+ .bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+ }
+ @keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{ 
+    opacity: 1;
+}
+70%{
+    opacity: 1;
+}
+100%{
+    transform: translateY(-90vh);
+    opacity: 0;
+}
+ }
+ .bubbles img:nth-child(1){
+    animation-delay: 2s;
+ }
+ .bubblesimg:nth-child(2){
+    animation-delay: 1s;
+ }
+ .bubblesimg:nth-child(3){
+    animation-delay: 3s;
+ }
+ .bubblesimg:nth-child(4){
+    animation-delay: 4.5s;
+ }
+ .bubblesimg:nth-child(5){
+    animation-delay: 3s;
+ }
+ .bubblesimg:nth-child(6){
+    animation-delay: 6s;
+ }
+ .bubblesimg:nth-child(7){
+    animation-delay: 7s;
+ }
+.resume{
+    text-align: center;
+}

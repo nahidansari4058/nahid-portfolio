@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            background-color:pink ;
+            font-size : 30px;
+            text-align: center;
+            margin: auto;
+        }
+        .form{
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+    <h1>Enquiry Form</h1>
+    </div>
+   <form>
+    <fieldset class="main">
+        <legend>Enquiry</legend>
+        Name:<input type="text"/>
+        <br/>
+        <br/>
+        Address: <textarea name="address"></textarea>
+        <br/>
+        <br/>
+        Gender:
+        <input type="radio" value="m" name="Gender"/>Male
+        <input type="radio" value="f" name="Gender"/>Female
+        <input type="radio" value="o" name="Gender"/>Other
+        <br/>
+        <br/>
+        Email:
+        <input type="email" name="email"/>
+        <br/>
+        <br/>
+        Password:
+        <input type="password" name="Password"/>
+        <br/>
+        <br/>
+        Location:
+        <select>
+            <option>Please select the location</option>
+            <option value="Bijnor">Bijnor</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Noida">Noida</option>
+            <option value="Gurugram/Gurgaon">Gurugram/Gurgaon</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Dehradun">Dehradun</option>
+            <option value="Other city">Other city</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="submit" value="Send"/>
+        <input type="reset" value="Reset"/>
+    </fieldset>
+
+   </form> 
+</body>
+</html>
